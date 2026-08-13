@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>First Program of web development</title>
+</head>
+<body>
+    <h1>Registration</h1>
+    <p>
+        Already registered: <a href="login.html">click here</a>
+    </p>
+    <h4>Enter details.</h4>
+    <form action="/registration.html" method="POST">
+        <table>
+            <tr>
+                <td>
+                    <lable for="fname">First Name:<span style="color:red">*</span></lable>
+                </td>
+                <td>
+                    <input type="text" id="fname" name="fname" required>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <lable for="mname">Middle Name:</lable>
+                </td>
+                <td>
+                    <input type="text" id="fname" name="fname">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <lable for="lname">Last Name:<span style="color:red">*</span></lable>
+                </td>
+                <td>
+                    <input type="text" id="lname" name="lname" required>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <lable for="dob">D.O.B:<span style="color:red">*</span></lable>
+                </td>
+                <td>
+                    <input type="date" id="dob" name="dob" required>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <lable for="Fname">Father's Name:<span style="color:red">*</span></lable>
+                </td>
+                <td>
+                    <input type="text" id="Fname" name="Fname" required>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="Mname">Mother's Name:<span style="color:red" >*</span></label>
+                </td>
+                <td>
+                    <input type="text" id="Mname" name="Mname" required>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <lable for="mail">Email:<span style="color:red">*</span></lable>
+                </td>
+                <td>
+                    <input type="email" id="mail" name="mail" required>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <lable for="Mnumber">Mobile no.:<span style="color:red">*</span></lable>
+                </td>
+                <td>
+                    <input type="tel" id="mnumber" name="Mnumber" required>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <lable for="Caddress">Communication Address:<span style="color:red">*</span></lable>
+                </td>
+                <td>
+                    <input type="text" id="Caddress" name="Caddress" required>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <lable for="Paddress">Permanent Address:<span style="color:red">*</span></lable>
+                </td>
+                <td>
+                    <input type="text" id="Paddress" name="Paddress" required>
+                </td>
+            </tr>
+        
+            <tr>
+                <td>
+                    <lable for="gender">Gender:<span style="color:red">*</span></lable>
+                </td>
+                <td>
+                    <input type="radio" id="gender" name="gender" required>
+                    <label for="male">Male</label>
+                    <input type="radio" id="gender" name="gender" required>
+                    <label for="female">Female</label>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <lable for="communicate">Communicate:</lable>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="address">Address:<span style="color:red">*</span></label>
+                </td>
+                <td>
+                    <input type="text" id="address" name="address" required>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="pincode">Pincode:<span style="color:red">*</span></label>
+                </td>
+                <td>
+                    <input type="text" id="pincode" name="pincode" required>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="flat_no.">Flat No.:<span style="color:red">*</span></label>
+                </td>
+                <td>
+                    <input type="text" id="flat_no" name="flat_no" required>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="city">City:<span style="color:red">*</span></label>
+                </td>
+                <td>
+                    <input type="text" id="city" name="city" required>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="state">State:<span style="color:red">*</span></label>
+                </td>
+                <td>
+                    <input type="text" id="state" name="state" required>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="highest_quali">Highest Qualification:<span style="color:red">*</span></label>
+                </td>
+                <td>
+                    <input type="radio" id="highest_quali" name="highest_quali" required>
+                    <label for="phd">P.h.D</label>
+                    <input type="radio" id="highest_quali" name="highest_quali" required>
+                    <label for="mtech">M.tech</label>
+                    <input type="radio" id="highest_quali" name="highest_quali" required>
+                    <label for="btech">B.tech</label>
+                    <input type="radio" id="highest_quali" name="highest_quali" required>
+                    <label for="12">12th</label>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="hobbies">Hobbies:</label>
+                </td>
+                <td>
+                    <input type="checkbox" id="f1">
+                    <label for="f1">Formula 1</label>
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+                    <input type="checkbox" id="formulae">
+                    <label for="formulae">Formula E</label>
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+                    <input type="checkbox" id="nascar">
+                    <label for="nascar">Nascar</label>
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+                    <input type="checkbox" id="motogp">
+                    <label for="motogp">Moto GP</label>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <lable for="username">Username:<span style="color:red">*</span></lable>
+                </td>
+                <td>
+                    <input type="text" id="username" name="username" required>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <lable for="password">Password:<span style="color:red">*</span></lable>
+                </td>
+                <td>
+                    <input type="password" id="password" name="password" required>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <lable for="password">Confirm Password:<span style="color:red">*</span></lable>
+                </td>
+                <td>
+                    <input type="password" id="password" name="cpassword" required>
+                </td>
+            </tr>
+        </table>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
